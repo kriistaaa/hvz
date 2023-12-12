@@ -1,0 +1,33 @@
+body{
+    background-color: blanchedalmond;
+}
+.bigbox{
+    height: 1000px;
+    width: 1000px;
+    background-color: cadetblue;
+
+   
+        display: flex;
+        justify-content: column;
+        align-items: center;
+    }
+    
+   
+
+.mediumbox{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+
+.mediumbox2{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+.mediumbox3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(122, 73, 14);
+}
