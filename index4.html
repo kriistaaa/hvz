@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +8,30 @@
     <link rel="stylesheet" href="style4.css">
 </head>
 <body>
-    <form>
+    <form class="forma">
         <h1 class="virsraksts">Login</h1>
-        <label for="email">Email*</label>
-        <input type="text" id="email">
-        <label for="password">Password*</label>
-        <input type="text" id="password">
-        <input type="checkbox" id="remember">
-        <label for="remember">Remember me</label>
+
+        <div class="inputContainer">
+            <label for="email" class="inputLabel">Email*</label>
+            <input type="text" id="email" class="inputLauks">
+        </div>
+        
+        <div class="inputContainer">
+            <label for="password" class="inputLabel">Password*</label>
+            <input type="text" id="password" class="inputLauks">
+        </div>
+        
+        <div>
+            <input type="checkbox" id="remember" class="checkbox">
+            <label for="remember" class="rememberMe">Remember me</label>
+        </div>
+        
         <button>Login</button>
-        <p>Don't have an account?</p>
-        <a href="#">Sign up here</a>
+
+        <div>
+            <p>Don't have an account?</p>
+            <a href="#">Sign up here</a>
+        </div>
     </form>
 </body>
 </html>
